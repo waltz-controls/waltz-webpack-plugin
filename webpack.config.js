@@ -94,6 +94,10 @@ module.exports = function (env) {
             config.externals = config.externals || {};
             config.externals = ["webix-jet"];
         }
+        
+        config.entry = {
+            index: "./src/index.js"
+        };
 
         config.externals = pack.runtimeDependencies;
 
