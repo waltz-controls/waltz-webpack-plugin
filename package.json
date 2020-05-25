@@ -2,6 +2,7 @@
   "name": "@waltz-controls/XXX",
   "version": "1.0.0",
   "description": "XXX",
+  "main": "dist/module/index.js",
   "module": "dist/module/index.js",
   "directories": {
     "doc": "docs",
